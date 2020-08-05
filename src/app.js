@@ -5,3 +5,4 @@ import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 
 ReactDom.render(<IndecisionApp />, document.getElementById('app'));
+var port = process.env.PORT || 3000
