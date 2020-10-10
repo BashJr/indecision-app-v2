@@ -31,7 +31,7 @@
     "build:prod": "webpack -p --env production",
     "webpack-serve": "webpack-dev-server",
     "start": "node server/server.js",
-    "heroku-postbuild": "yarn run build:prod"
+    "heroku-postbuild": "npm run build:prod"
   },
   "author": "",
   "license": "ISC"
